@@ -1,4 +1,3 @@
-fitz==0.0.1.dev2
 litellm==1.66.3
 pandas==2.2.3
 Pillow==11.2.1
