@@ -1,0 +1,9 @@
+fitz==0.0.1.dev2
+litellm==1.66.3
+pandas==2.2.3
+Pillow==11.2.1
+pycelonis==2.12.0
+pycelonis_core==2.10.2
+pycelonis_llm==0.1.2
+pymupdf==1.25.5
+tqdm==4.67.1
