@@ -18,13 +18,31 @@ Beautiful Streamlit web app for demonstrating the hybrid invoice extraction pipe
 
 ## 🚀 Quick Start
 
-### Prerequisites
+### Option 1: Google Colab (Easiest!) ☁️
 
+**Perfect for: Demos, presentations, no local setup**
+
+1. Open `app_colab.ipynb` in Google Colab
+2. Run all cells (Ctrl+F9 or Runtime → Run all)
+3. Click the public URL that appears
+4. Use the app in your browser!
+
+**Advantages:**
+- ✅ No installation required
+- ✅ GPU included (free T4)
+- ✅ Access from anywhere
+- ✅ Share URL with others
+
+### Option 2: Local Installation 💻
+
+**Perfect for: Development, offline use, presentations**
+
+**Prerequisites:**
 - Python 3.8+
 - GPU recommended (for Qwen2-VL, or use Claude API only)
 - Claude API key (optional, for fallback)
 
-### Installation
+**Installation:**
 
 ```bash
 # Clone repository
@@ -42,7 +60,7 @@ brew install poppler
 sudo apt-get install poppler-utils
 ```
 
-### Run the App
+**Run the App:**
 
 ```bash
 streamlit run app.py
